@@ -13,8 +13,8 @@ const keys = {
 
 // Player properties
 const player = {
-    x: canvas.width / 2 - 15, // Start in the middle horizontally (subtract half width)
-    y: canvas.height - 100,   // Start near the bottom vertically
+    x: 250,                       // Start on the first platform
+    y: 400,                       // Start safely ABOVE the platform
     width: 30,
     height: 50,
     color: 'red',

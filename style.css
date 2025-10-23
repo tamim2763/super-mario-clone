@@ -29,6 +29,9 @@ body {
     border-radius: 15px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
+    width: 90%;
+    max-width: 680px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -52,10 +55,13 @@ h1 {
 }
 
 #gameCanvas {
+    width: 100%;
+    height: auto;
     border: 3px solid #333;
     border-radius: 10px;
     background: linear-gradient(180deg, #87CEEB 0%, #98FB98 70%, #8FBC8F 100%);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     display: block;
     margin: 0 auto;
+    max-width: 640px;
 }
